@@ -1,0 +1,159 @@
+.DetailBox {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    margin: 45px auto;
+    border-radius: 10px;
+    max-width: 1100px;
+    min-width: 800px;
+    background-color: #fff;
+    padding: 45px;
+    /* justify-content: space-between;
+    align-items: flex-start; */
+}
+
+.DetailContent {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.DetailTable {
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.DetailTable td {
+    border: 1px solid rgb(204, 204, 204);
+    padding: 10px;
+}
+
+.td-header {
+    width: 160px;
+    font-size: 1.2em;
+    font-weight: 500;
+    background-color: rgb(238, 238, 238);
+}
+
+.ant-descriptions-title {
+    font-size: 1.5em !important;
+}
+
+.ant-descriptions-item-label span {
+    font-size: 1.2em;
+}
+
+/*横向时间轴*/
+
+.time-horizontal-div {
+    margin: 20px 0;
+}
+
+.time-horizontal {
+    /* list-style-type: none; */
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+
+}
+
+.time-horizontal .time-span {
+    display: inline-block;
+    position: relative;
+    text-align: right;
+    width: 25%;
+    /* height: 1px; */
+    /* padding-top: 10px; */
+    border-top: 1px solid #707070;
+}
+
+.time-horizontal .time-span-ed {
+    border-top: 1px solid #d2002f;
+}
+
+.time-horizontal span b:before {
+    content: '';
+    position: absolute;
+    top: -7px;
+    left: 95%;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #4c4c4c;
+    border-radius: 8px;
+    background: #4c4c4c;
+    z-index: 2;
+}
+
+.time-horizontal .time-span-ed b:before {
+    border: 2px solid #d2002f;
+    background: #d2002f;
+}
+
+.fli {
+    width: auto !important;
+}
+
+.time-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.time-top .time-top-span {
+    display: inline-block;
+    text-align: left;
+    width: 90px;
+    padding-top: 10px;
+}
+
+.rule {
+    margin: 20px 0;
+}
+
+.rule-title {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.rule-content-kid {
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.rule-content-kid-l {
+    width: 10%;
+    padding-left: 20px;
+}
+
+.rule-content-kid-r {
+    width: 90%;
+    padding-left: 20px;
+}
+
+.Btns {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Btns Button {
+    margin: 0 20px;
+}
+
+.BuyFormDiv {
+    width: 600px;
+    margin: 0 auto;
+}
+
+/* Form */
+.BuyForm {
+    width: 100%;
+    font-size: 1.5em;
+}
+
+
+/* Form */

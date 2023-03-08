@@ -1,0 +1,23 @@
+.ABox {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    margin: 45px auto;
+    border-radius: 10px;
+    max-width: 1100px;
+    min-width: 800px;
+    background-color: #fff;
+    padding: 45px;
+    /* justify-content: space-between;
+    align-items: flex-start; */
+}
+
+/* .ADiv {
+    width: 600px;
+    margin: 0 auto;
+} */
+
+/* Form */
+/* .BuyForm {
+    width: 100%;
+    font-size: 1.5em;
+} */

@@ -1,0 +1,97 @@
+.header {
+    width: 100vw;
+    min-width: 1100px;
+    height: 4.5vw;
+    min-height: 80px;
+    background-color: #fff;
+}
+
+.headerDiv {
+    display: flex;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+    /* background-color: skyblue; */
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logoDiv {
+    display: flex;
+    width: 400px;
+    height: 100%;
+    /* background-color: #ea0437; */
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    height: 80%;
+    border-radius: 50%;
+    /* background-color: rgb(148, 84, 148); */
+}
+
+.logotitle {
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+#name {
+    width: 200px;
+    height: 100%;
+    /* background-color: hotpink; */
+}
+
+.loginAndReg {
+    display: flex;
+    width: 200px;
+    height: 100%;
+    color: rgb(210, 0, 47);
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(67, 70, 71); */
+}
+
+.loginAndReg a {
+
+    color: rgb(210, 0, 47);
+}
+
+.loginAndReg a:hover {
+    color: rgb(210, 0, 47);
+    text-decoration: underline;
+}
+
+.navigationBar {
+    display: flex;
+    width: 100%;
+    min-height: 50px;
+    height: 3vw;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-top: 2px solid #d2002f;
+}
+
+#navigationDivs {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1100px;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation {
+    margin: 10px;
+    transition: all .2s;
+    font-size: 1.5em;
+}
+
+.navigation:hover {
+    cursor: pointer;
+    color: rgb(234, 4, 55);
+}

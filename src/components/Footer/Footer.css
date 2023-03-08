@@ -1,0 +1,14 @@
+.Footer {
+    display: flex;
+    width: 100vw;
+    height: 5vw;
+    background-color: #1b2947;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    max-width: 1100px;
+    text-align: center;
+}
